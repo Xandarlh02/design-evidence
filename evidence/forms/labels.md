@@ -20,9 +20,9 @@ This file covers how to position and display field labels in forms. The claims a
 **Applies when:** all form fields regardless of length or context.
 
 ## EV-FORM-003: Keep labels visible at all times
-**Strength:** research-backed
+**Strength:** convention
 **Claim:** Labels must remain visible while the user is filling in a field. Do not use patterns — such as floating or disappearing labels — that hide the label text once the user starts typing.
-**Evidence:** NN/g's placeholder research directly documents that disappearing label text strains short-term memory, prevents answer verification before submission, and makes error recovery difficult because users no longer see the field description when an error message appears. Their separate form-design article cites Seckler et al.'s finding that forms following usability guidelines — including persistent, clearly positioned labels — achieved 78% one-try submissions versus 42% for non-compliant forms.
+**Evidence:** NN/g's placeholder research qualitatively documents failure modes of disappearing label text: it strains short-term memory, prevents answer verification before submission, and makes error recovery difficult because users no longer see the field description when an error message appears. No published study has measured label visibility in isolation as a controlled variable; this guidance reflects professional consensus derived from those documented failure modes.
 **Sources:**
 - Nielsen Norman Group, "Placeholders in Form Fields Are Harmful", 2014 — https://www.nngroup.com/articles/form-design-placeholders/
 - Nielsen Norman Group, "Web Form Design", 2016 — https://www.nngroup.com/articles/web-form-design/
