@@ -1,0 +1,13 @@
+{
+  "name": "design-evidence",
+  "owner": {
+    "name": "xanda"
+  },
+  "plugins": [
+    {
+      "name": "design-evidence",
+      "source": "./",
+      "description": "UI/UX best practices with cited sources. Design reviews that can show their evidence."
+    }
+  ]
+}
