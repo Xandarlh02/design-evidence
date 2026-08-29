@@ -14,7 +14,7 @@ This file covers WCAG 2.2 contrast requirements for text, user interface compone
 ## EV-A11Y-002: Large text needs a contrast ratio of at least 3:1
 **Strength:** standard
 **Claim:** Large-scale text — at least 18 point (approximately 24 px) for regular weight, or at least 14 point (approximately 18.5 px) for bold — requires a minimum contrast ratio of 3:1 against its background.
-**Evidence:** WCAG 2.2 SC 1.4.3 (Level AA) permits a relaxed 3:1 ratio for large-scale text because larger letterforms remain legible at lower contrast. The Understanding document states that 18 pt and 14 pt are equivalent to approximately 24 px and 18.5 px respectively, based on a 1 pt = 1.333 px conversion. The no-rounding rule applies: 2.999:1 would not meet the threshold.
+**Evidence:** WCAG 2.2 SC 1.4.3 (Level AA) permits a relaxed 3:1 ratio for large-scale text because larger letterforms remain legible at lower contrast. The Understanding document states that 18 pt and 14 pt are equivalent to approximately 24 px and 18.5 px respectively, based on a 1 pt = 1.333 px conversion. The no-rounding rule applies: 4.499:1 would not meet the threshold.
 **Sources:**
 - W3C, "Understanding SC 1.4.3: Contrast (Minimum)", WCAG 2.2 — https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
 **Applies when:** text styled at or above the large-text size thresholds defined in SC 1.4.3.
