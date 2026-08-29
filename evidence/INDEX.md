@@ -12,4 +12,5 @@ One line per file: path, scope, claim IDs.
 
 ## Accessibility
 
-(populated by the accessibility evidence tasks)
+- evidence/accessibility/contrast.md — colour contrast for text, UI components, and graphical objects; prohibition on colour-only communication — EV-A11Y-001, EV-A11Y-002, EV-A11Y-003, EV-A11Y-004
+- evidence/accessibility/focus.md — focus visibility, focus order, no keyboard trap, full keyboard operability — EV-A11Y-005, EV-A11Y-006, EV-A11Y-007, EV-A11Y-008
