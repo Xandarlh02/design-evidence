@@ -35,10 +35,10 @@ This file covers when and how to present validation feedback in forms. The claim
 - GOV.UK Design System, "Error message", 2024 — https://design-system.service.gov.uk/components/error-message/
 **Applies when:** any form that performs server-side or deferred validation before navigating away.
 
-## EV-FORM-009: On forms with multiple errors, show an error summary at the top
+## EV-FORM-009: Show an error summary at the top of the form when validation fails
 **Strength:** convention
-**Claim:** When a form submission produces more than one validation error, display a summary at the top of the page listing every error with a link to the affected field. Show this summary even when there is only one error.
+**Claim:** When a form submission produces any validation error, display a summary at the top of the page listing every error with a link to the affected field. Always show this summary when there are errors, including when there is only one.
 **Evidence:** The GOV.UK Design System's error summary component prescribes this pattern as established design-system practice — an always-visible summary headed "There is a problem", with each item linking to its field. The design system states the component should always be used with its error message component. No research data is cited on the page; the community discussion on GitHub remains open for further validation.
 **Sources:**
 - GOV.UK Design System, "Error summary", 2024 — https://design-system.service.gov.uk/components/error-summary/
-**Applies when:** forms long enough to require scrolling, or any form where an error could occur out of the user's current viewport.
+**Applies when:** any form that performs validation — the error summary must be shown whenever there is at least one validation error, regardless of form length.

@@ -33,7 +33,7 @@ More skills (quick demos, website blocks) are planned; see the specs in
 ## Security posture
 
 The plugin contains no executable code — no scripts, no dependencies, no
-build step. Everything it installs is markdown and JSON you can read.
+build step. It installs markdown, JSON, and one script-free HTML test fixture you can read.
 
 ## Contributing
 

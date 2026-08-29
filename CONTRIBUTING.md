@@ -8,7 +8,7 @@ is the same for maintainers and contributors: no source, no ship.
 The claim is the atomic unit: one recommendation, one citation block. Every
 claim in `evidence/` uses this structure exactly:
 
-    ## EV-FORM-003: Top-aligned labels outperform left-aligned labels
+    ## EV-FORM-001: Top-aligned labels outperform left-aligned labels
     **Strength:** research-backed
     **Claim:** Place field labels above inputs, not beside them. Top-aligned
     labels reduce completion time and avoid truncation on narrow viewports.
@@ -46,4 +46,4 @@ claim in `evidence/` uses this structure exactly:
 - A claim with no URL, a dead URL, or a URL that does not support the claim.
 - Copied text from a paywalled or copyrighted source.
 - A `research-backed` label on something that is actually convention.
-- Executable code of any kind. This plugin ships markdown and JSON only.
+- Executable code of any kind. This plugin ships no executable code — markdown, JSON, and script-free test fixtures only.

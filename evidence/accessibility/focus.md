@@ -5,7 +5,7 @@ This file covers WCAG 2.2 requirements for keyboard operability and focus manage
 ## EV-A11Y-005: Keyboard focus must be visibly indicated
 **Strength:** standard
 **Claim:** Any keyboard-operable interface must have a mode in which the focus indicator is visible, showing keyboard users which element will receive their next input.
-**Evidence:** WCAG 2.2 SC 2.4.7 Focus Visible (Level AA) requires that the pixels changed to indicate a focused state are perceptible at all times during keyboard navigation. The criterion applies to all keyboard-operable elements; removing the browser's default outline without providing an equivalent replacement indicator violates this requirement.
+**Evidence:** WCAG 2.2 SC 2.4.7 Focus Visible (Level AA) requires that there is a mode of operation where the keyboard focus indicator is visible. The criterion applies to all keyboard-operable elements; removing the browser's default outline without providing an equivalent replacement indicator violates this requirement.
 **Sources:**
 - W3C, "Understanding SC 2.4.7: Focus Visible", WCAG 2.2 — https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html
 **Applies when:** all interactive elements reachable by keyboard, including links, buttons, form controls, and custom components.

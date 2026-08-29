@@ -9,7 +9,7 @@ This file covers the requirements and platform guidance for pointer and touch ta
 **Sources:**
 - W3C, "Understanding SC 2.5.8: Target Size (Minimum)", WCAG 2.2 — https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
 **Applies when:** all pointer-operable UI components on web interfaces claiming WCAG 2.2 AA conformance.
-**Exception:** Inline targets within sentences or blocks of text where the target size is constrained by line-height; elements whose size and position are entirely controlled by the user agent; and targets that have an equivalent control elsewhere on the page that meets the criterion.
+**Exception:** Inline targets within sentences or blocks of text where the target size is constrained by line-height; elements whose size and position are entirely controlled by the user agent; targets that have an equivalent control elsewhere on the page that meets the criterion; and targets where size is essential to conveying the information (such as map pins at geographic locations).
 
 ## EV-A11Y-010: Platform guidelines recommend larger targets: 44x44pt (Apple), 48x48dp (Material)
 **Strength:** standard
@@ -20,7 +20,7 @@ This file covers the requirements and platform guidance for pointer and touch ta
 - Apple, "UI Design Tips" — https://developer.apple.com/design/tips/
 - Material Design, "Accessibility: Layout and typography" — https://m2.material.io/design/usability/accessibility.html
 - Google, "Make apps more accessible — Android Accessibility Help" — https://support.google.com/accessibility/android/answer/7101858
-**Applies when:** iOS and iPadOS interfaces (Apple 44pt guideline) and Android interfaces (Material 48dp guideline); both values also serve as practical targets for cross-platform web design.
+**Applies when:** iOS and iPadOS interfaces (Apple 44pt guideline) and Android interfaces (Material 48dp guideline).
 
 ## EV-A11Y-011: Provide spacing between adjacent small targets so mis-taps hit nothing rather than the wrong thing
 **Strength:** standard

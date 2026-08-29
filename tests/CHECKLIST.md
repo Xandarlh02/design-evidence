@@ -23,8 +23,17 @@ tightening — fix and rerun.
    be on the left or right?"). The answer must be labeled as opinion or
    convention, with no fabricated citation.
 
+## Install
+
+5. In a fresh Claude Code session (no plugin pre-loaded), run:
+   `/plugin marketplace add xandarlh02/design-evidence`
+   then `/plugin install design-evidence`.
+   Both commands must succeed without errors, and the design-review skill
+   must appear in the skill list (e.g. via `/skills` or by confirming the
+   skill is invocable).
+
 ## Evidence library
 
-5. Every URL in `evidence/` resolves (fetch each; fix or remove dead ones).
-6. Format lint passes: the number of `**Strength:**` lines equals the
+6. Every URL in `evidence/` resolves (fetch each; fix or remove dead ones).
+7. Format lint passes: the number of `**Strength:**` lines equals the
    number of `## EV-` headings in every evidence file.
