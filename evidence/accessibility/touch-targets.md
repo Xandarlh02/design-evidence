@@ -14,11 +14,12 @@ This file covers the requirements and platform guidance for pointer and touch ta
 ## EV-A11Y-010: Platform guidelines recommend larger targets: 44x44pt (Apple), 48x48dp (Material)
 **Strength:** standard
 **Claim:** Apple Human Interface Guidelines recommend a minimum tappable area of 44 by 44 points for all controls; Material Design guidelines recommend a minimum touch target of 48 by 48 density-independent pixels.
-**Evidence:** Apple's Human Interface Guidelines state "try to maintain a minimum tappable area of 44pt x 44pt for all controls," acknowledging that the visible element may be smaller while the interactive region meets the threshold. Material Design guidelines specify that touch targets for interactive elements should be at least 48 by 48dp, which produces a physical size of approximately 9 mm regardless of screen density; an icon may be visually 24 by 24dp while padding brings the touch target up to 48 by 48dp. Both platform figures are cross-referenced by the W3C's Understanding document for SC 2.5.5, which cites Apple and Material Design touch target guidance as the industry basis for its 44 by 44 CSS pixel AAA requirement.
+**Evidence:** Apple's UI Design Tips page states: "Create controls that measure at least 44 points x 44 points so they can be accurately tapped with a finger." Google's Android accessibility help page states that interactive elements should have "a width and height of at least 48dp, as described in the Material Design Accessibility guidelines," and recommends making "touch targets at least 48x48dp, separated by 8dp of space or more." The Material 48dp target produces a physical size of approximately 9mm regardless of screen density. The W3C Understanding document for SC 2.5.5 links to both Apple and Material Design guidance in its Related Resources section but does not quote their specific measurements.
 **Sources:**
 - Apple, "Human Interface Guidelines: Accessibility" — https://developer.apple.com/design/human-interface-guidelines/accessibility
+- Apple, "UI Design Tips" — https://developer.apple.com/design/tips/
 - Material Design, "Accessibility: Layout and typography" — https://m2.material.io/design/usability/accessibility.html
-- W3C, "Understanding SC 2.5.5: Target Size (Enhanced)", WCAG 2.2 — https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html
+- Google, "Make apps more accessible — Android Accessibility Help" — https://support.google.com/accessibility/android/answer/7101858
 **Applies when:** iOS and iPadOS interfaces (Apple 44pt guideline) and Android interfaces (Material 48dp guideline); both values also serve as practical targets for cross-platform web design.
 
 ## EV-A11Y-011: Provide spacing between adjacent small targets so mis-taps hit nothing rather than the wrong thing
