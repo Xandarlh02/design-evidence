@@ -26,7 +26,7 @@ More skills (quick demos, website blocks) are planned; see the specs in
 ## Install
 
 ```
-/plugin marketplace add xanda/design-evidence
+/plugin marketplace add xandarlh02/design-evidence
 /plugin install design-evidence
 ```
 

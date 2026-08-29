@@ -43,7 +43,7 @@
   "version": "0.1.0",
   "description": "UI/UX best practices with cited sources. Design reviews that can show their evidence.",
   "author": {
-    "name": "xanda"
+    "name": "xandarlh02"
   }
 }
 ```
@@ -54,7 +54,7 @@
 {
   "name": "design-evidence",
   "owner": {
-    "name": "xanda"
+    "name": "xandarlh02"
   },
   "plugins": [
     {
@@ -99,7 +99,7 @@ More skills (quick demos, website blocks) are planned; see the specs in
 ## Install
 
 ```
-/plugin marketplace add xanda/design-evidence
+/plugin marketplace add xandarlh02/design-evidence
 /plugin install design-evidence
 ```
 
@@ -114,7 +114,7 @@ Claims live or die by their sources. See CONTRIBUTING.md for the claim
 format and the bar a pull request has to meet.
 ```
 
-- [ ] **Step 4: Write `LICENSE`** — the standard MIT License text, copyright line: `Copyright (c) 2026 xanda`.
+- [ ] **Step 4: Write `LICENSE`** — the standard MIT License text, copyright line: `Copyright (c) 2026 xandarlh02`.
 
 - [ ] **Step 5: Write `.gitignore`**
 
