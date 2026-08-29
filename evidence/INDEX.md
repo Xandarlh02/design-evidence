@@ -14,3 +14,5 @@ One line per file: path, scope, claim IDs.
 
 - evidence/accessibility/contrast.md — colour contrast for text, UI components, and graphical objects; prohibition on colour-only communication — EV-A11Y-001, EV-A11Y-002, EV-A11Y-003, EV-A11Y-004
 - evidence/accessibility/focus.md — focus visibility, focus order, no keyboard trap, full keyboard operability — EV-A11Y-005, EV-A11Y-006, EV-A11Y-007, EV-A11Y-008
+- evidence/accessibility/touch-targets.md — WCAG 2.2 minimum target size, Apple and Material platform recommendations, spacing exception — EV-A11Y-009, EV-A11Y-010, EV-A11Y-011
+- evidence/accessibility/aria.md — native HTML over ARIA, programmatic labels, image alt text, heading hierarchy, live regions — EV-A11Y-012, EV-A11Y-013, EV-A11Y-014, EV-A11Y-015, EV-A11Y-016
