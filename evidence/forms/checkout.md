@@ -27,7 +27,7 @@ This file covers design decisions that affect checkout completion rates and aban
 **Applies when:** any multi-field checkout form.
 
 ## EV-FORM-013: Use a single-column layout for forms
-**Strength:** research-backed
+**Strength:** convention
 **Claim:** Lay out checkout and other multi-field forms in a single column. Multi-column layouts cause users to skip required fields, misinterpret field relationships, and make more errors.
 **Evidence:** Baymard Institute's usability testing across multiple rounds of checkout studies found that single-column layouts resulted in fewer skipped fields, fewer misinterpreted fields, and fewer errors compared to multi-column layouts. Users in testing struggled to determine which fields to complete across columns, and their attention was drawn in competing directions. Baymard notes that placing two or three logically related short fields on one row (such as city, state, and postcode) does not cause the same problems, distinguishing that pattern from a full two-column form layout. Despite this evidence, 16% of sites in their benchmark still use extensive multi-column forms.
 **Sources:**
