@@ -35,8 +35,9 @@ claim in `evidence/` uses this structure exactly:
    summary.
 5. Qualifying sources: W3C/WCAG, Nielsen Norman Group, Baymard Institute
    free articles, GOV.UK Design System research, platform interface
-   guidelines (Apple, Material), published papers. Secondhand blog posts do
-   not qualify.
+   guidelines (Apple, Material), published papers, Google Search Central
+   official docs, web.dev, and Butterick's Practical Typography (free web
+   book). Secondhand blog posts do not qualify.
 6. When you add, change, or remove a claim, update `evidence/INDEX.md` in
    the same commit.
 7. Prose standard: plain, direct writing. No emoji, no filler.

@@ -1,0 +1,146 @@
+<!-- deliberately bad landing page fixture for design-review layout pass; not production code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme Cloud Storage — Fast. Reliable. Secure. Affordable. Scalable.</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    /* Full-width single line of body text exceeding 100 characters — violates EV-LAYOUT-007 */
+    .body-text {
+      width: 100%;
+      text-align: justify; /* justified text — violates EV-LAYOUT-012 */
+      font-size: 1rem;
+      line-height: 1.4;
+      padding: 8px; /* cramped spacing — violates EV-LAYOUT-004, EV-LAYOUT-006 */
+    }
+
+    /* All headings at the same size — no hierarchy, violates EV-LAYOUT-001, EV-LAYOUT-002 */
+    h1, h2, h3, h4 {
+      font-size: 1.1rem;
+      font-weight: normal;
+      margin: 4px 0; /* undifferentiated, cramped spacing */
+    }
+
+    /* All buttons styled identically — no primary/secondary distinction, violates EV-LAYOUT-003, EV-FORM-015 */
+    .btn {
+      display: inline-block;
+      padding: 6px 10px;
+      margin: 2px;
+      background: #888;
+      color: #fff;
+      border: none;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+
+    nav {
+      padding: 4px 8px;
+    }
+
+    nav a {
+      margin-right: 4px;
+      font-size: 0.9rem;
+    }
+
+    section {
+      padding: 8px; /* cramped, undifferentiated spacing throughout */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation with no prominent brand or clear primary action -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">Pricing</a>
+    <a href="#">Blog</a>
+    <a href="#">Docs</a>
+    <a href="#">Support</a>
+    <a href="#">About</a>
+    <a href="#">Careers</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Multiple h1 elements competing for hierarchy — violates EV-LAYOUT-001, EV-LAYOUT-002 -->
+  <section>
+    <h1>Welcome to Acme</h1>
+    <h1>Cloud Storage Solutions</h1>
+    <h1>Enterprise Ready</h1>
+    <h2>Fast</h2>
+    <h2>Reliable</h2>
+    <h2>Secure</h2>
+    <h2>Affordable</h2>
+    <h2>Scalable</h2>
+    <h2>Global</h2>
+  </section>
+
+  <!-- No above-the-fold value proposition; features listed immediately without explaining what the product does -->
+  <section>
+    <h3>Feature A</h3>
+    <h3>Feature B</h3>
+    <h3>Feature C</h3>
+    <h3>Feature D</h3>
+    <h3>Feature E</h3>
+    <h3>Feature F</h3>
+  </section>
+
+  <!-- Full-width body text in a single long run — exceeds 100-character line length, justified — violates EV-LAYOUT-007, EV-LAYOUT-012 -->
+  <section>
+    <p class="body-text">Acme Cloud Storage gives your team unlimited, redundant, globally distributed object storage with automatic versioning, fine-grained access controls, integrated CDN, built-in encryption at rest and in transit, real-time analytics, webhook notifications, and a 99.999% uptime SLA — all on a flexible pay-as-you-go pricing model that scales with your business needs and integrates with every major development framework and CI/CD pipeline your team already relies on every single day.</p>
+    <p class="body-text">Our platform is trusted by thousands of engineering teams worldwide who need reliable storage infrastructure they can count on for mission-critical workloads, including media streaming, machine learning datasets, database backups, software build artifacts, and long-term archival storage, all managed from a single unified console that requires no specialized training to operate effectively.</p>
+  </section>
+
+  <!-- Many equal-weight CTAs — buried primary action with no visual distinction, violates EV-LAYOUT-002, EV-LAYOUT-003 -->
+  <section>
+    <h4>Get started today</h4>
+    <button class="btn">Learn More</button>
+    <button class="btn">View Pricing</button>
+    <button class="btn">Read Docs</button>
+    <button class="btn">Watch Demo</button>
+    <button class="btn">Sign Up</button>
+    <button class="btn">Contact Sales</button>
+    <button class="btn">Download SDK</button>
+    <button class="btn">See Case Studies</button>
+  </section>
+
+  <!-- More equally weighted sections with no spacing differentiation — violates EV-LAYOUT-004, EV-LAYOUT-006 -->
+  <section>
+    <h4>Security</h4>
+    <p class="body-text">All data is encrypted at rest using AES-256 and in transit using TLS 1.2 or higher, with optional customer-managed keys, automatic key rotation, detailed audit logs, and compliance certifications including SOC 2 Type II, ISO 27001, GDPR, HIPAA, and FedRAMP Moderate so your legal and compliance teams can sleep soundly knowing your data is protected at every layer of the stack.</p>
+  </section>
+
+  <section>
+    <h4>Performance</h4>
+    <p class="body-text">With edge nodes in over 40 regions worldwide, average time-to-first-byte under 50ms, parallel multipart upload support, automatic tiering between hot and cold storage classes, and a globally distributed content delivery network, your users will experience consistent high-speed access to their files regardless of their location or the size of the objects they are downloading or uploading.</p>
+  </section>
+
+  <section>
+    <h4>Pricing</h4>
+    <p class="body-text">Start for free with 5 GB of storage and 50 GB of bandwidth per month at no cost, then pay only for what you use with no minimum commitments, no long-term contracts, no egress fees within the same region, and volume discounts that kick in automatically as your usage grows beyond 10 TB per month, making Acme the most cost-effective solution for teams of any size.</p>
+  </section>
+
+  <!-- Footer with same visual weight as everything above -->
+  <section>
+    <h4>Company</h4>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Press</a>
+    <a href="#">Careers</a>
+    <a href="#">Legal</a>
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Security</a>
+    <a href="#">Status</a>
+    <a href="#">Contact</a>
+  </section>
+
+</body>
+</html>

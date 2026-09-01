@@ -1,0 +1,65 @@
+<!-- deliberately bad SEO + conversion landing page fixture for seo-helper audit; not production code -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- missing viewport meta — poor mobile signal -->
+  <!-- duplicate title tags; both are vague boilerplate -->
+  <title>Welcome</title>
+  <title>Welcome</title>
+  <!-- no meta description -->
+  <style>
+    body { margin: 0; font-family: sans-serif; }
+    .wrap { width: 100%; }
+    /* all body text is full-width, justified, and in one wall-of-text block */
+    p { text-align: justify; line-height: 1.3; }
+    /* all buttons look identical — no primary/secondary distinction */
+    .btn { display: inline-block; padding: 6px 12px; background: #888; color: #fff; border: none; cursor: pointer; margin: 2px; }
+  </style>
+</head>
+<body>
+
+  <!-- div soup — no semantic landmarks (no header, nav, main, footer) -->
+  <div class="wrap">
+
+    <!-- multiple h1 elements competing; no single clear heading -->
+    <div>
+      <h1>Solutions</h1>
+      <h1>Products</h1>
+      <h1>Services</h1>
+    </div>
+
+    <!-- no value proposition above the fold; the first thing visible is a feature list with no explanation of what the product does or why it matters -->
+    <div>
+      <div>Feature One: fast</div>
+      <div>Feature Two: reliable</div>
+      <div>Feature Three: scalable</div>
+      <div>Feature Four: secure</div>
+      <div>Feature Five: affordable</div>
+      <div>Feature Six: global</div>
+    </div>
+
+    <!-- images with no alt attribute -->
+    <div>
+      <img src="hero.jpg">
+      <img src="logo.png">
+      <img src="screenshot.png">
+    </div>
+
+    <!-- wall of text — single unbroken paragraph, full width, justified -->
+    <div>
+      <p>Our platform provides enterprise-grade infrastructure for teams of all sizes, featuring automatic failover, real-time sync, built-in analytics, multi-region redundancy, fine-grained access controls, integrated audit logs, webhook support, a developer-friendly REST API, a GraphQL endpoint, SDKs for every major language, a web-based dashboard, mobile applications for iOS and Android, SSO via SAML and OAuth, role-based permissions, usage-based pricing with no minimums, a 99.99% uptime SLA, 24/7 support from engineers not bots, and dedicated onboarding assistance for enterprise accounts that exceed the standard tier threshold defined in the service agreement.</p>
+      <p>We have been in business since 2012 and our platform has grown substantially over the years as more and more customers from a wide variety of industries including finance, healthcare, retail, logistics, media and entertainment, education, government, and nonprofit have chosen our solution over the competition because of the breadth of our feature set, the reliability of our infrastructure, and the responsiveness of our support team who are available around the clock to assist with any issues that may arise during the course of using the platform in production environments of any size or complexity.</p>
+    </div>
+
+    <!-- three equally weighted CTAs with no visual hierarchy -->
+    <div>
+      <button class="btn">Sign Up</button>
+      <button class="btn">Learn More</button>
+      <button class="btn">Contact Sales</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
